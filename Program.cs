@@ -37,7 +37,7 @@ namespace Массивы
                 Console.WriteLine();
                 vyvod(massiveB, n2, m2);
                 Console.WriteLine();
-                MatrixMultiplication(massiveA, massiveB, massiveC, n1, m1, n2, m2);
+                MassivMult(massiveA, massiveB, massiveC, n1, m1, n2, m2);
             }
             Console.ReadKey();
         }
@@ -63,7 +63,7 @@ namespace Массивы
                 Console.WriteLine();
             }
         }
-        static void MatrixMultiplication(int[,] massivA, int[,] massivB, int[,] massivC, int N1, int M1, int N2, int M2)
+        static void MassivMult(int[,] massivA, int[,] massivB, int[,] massivC, int N1, int M1, int N2, int M2)
         {       
             for (var i = 0; i < N1; i++)
             {
