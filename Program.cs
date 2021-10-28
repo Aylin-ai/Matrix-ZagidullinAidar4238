@@ -71,7 +71,7 @@ namespace Массивы
                 {
                     for (var k = 0; k < M1; k++)
                     {
-                        matrixC[i, j] += massivA[i, k] * massivB[k, j];
+                        massivC[i, j] += massivA[i, k] * massivB[k, j];
                     }
                         Console.Write(massivC[i, j] + " ");
                 }
