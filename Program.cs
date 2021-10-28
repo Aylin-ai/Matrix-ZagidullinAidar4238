@@ -63,7 +63,7 @@ namespace Массивы
                 Console.WriteLine();
             }
         }
-        static void MatrixMultiplication(int[,] matrixA, int[,] matrixB, int[,] matrixC, int N1, int M1, int N2, int M2)
+        static void MatrixMultiplication(int[,] massivA, int[,] massivB, int[,] massivC, int N1, int M1, int N2, int M2)
         {       
             for (var i = 0; i < N1; i++)
             {
@@ -71,9 +71,9 @@ namespace Массивы
                 {
                     for (var k = 0; k < M1; k++)
                     {
-                        matrixC[i, j] += matrixA[i, k] * matrixB[k, j];
+                        matrixC[i, j] += massivA[i, k] * massivB[k, j];
                     }
-                        Console.Write(matrixC[i, j] + " ");
+                        Console.Write(massivC[i, j] + " ");
                 }
                 Console.WriteLine();
             }
